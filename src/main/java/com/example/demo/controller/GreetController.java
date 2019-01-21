@@ -17,7 +17,7 @@ public class GreetController {
     @Autowired
     private TopicService topicService;
 
-    @RequestMapping("/hello")
+    @RequestMapping("/helloe")
     public String HelloWorld() {
         return "Hello World!";
     }
